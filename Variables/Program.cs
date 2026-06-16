@@ -23,3 +23,4 @@ char i = '5';
 int j = h + i;
 Console.WriteLine(j);
 
+Console.WriteLine("Faaaaah");
