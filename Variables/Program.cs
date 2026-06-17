@@ -24,3 +24,7 @@ int j = h + i;
 Console.WriteLine(j);
 
 Console.WriteLine("Faaaaah");
+
+int k = 4;
+Console.WriteLine("This is Number : " + k);
+
