@@ -1,4 +1,6 @@
-﻿Console.Write("Enter Your Name : ");
+﻿using System.ComponentModel;
+
+Console.Write("Enter Your Name : ");
 string a = Console.ReadLine()!;
 
 Console.Write("Enter Your Age : ");
@@ -15,5 +17,9 @@ int e = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("The power of the base given is : " + Math.Pow(d,e));
 Console.WriteLine("The number bigger between the two is : " + Math.Max(d,e));
 Console.WriteLine("The number smaller between the two is : " + Math.Min(d,e));
+
+Console.Write("Enter any decimal number : ");
+double f = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("If we round up then the answer is : " + Math.Round(f));
 
 
