@@ -22,4 +22,3 @@ Console.Write("Enter any decimal number : ");
 double f = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("If we round up then the answer is : " + Math.Round(f));
 
-
