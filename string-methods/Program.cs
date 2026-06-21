@@ -18,8 +18,12 @@ Console.WriteLine(b.Replace(c, d));
 // In here we get phone number from the user and then ask him which number does he wish to change with what number and both of this is also given by him
 
 // man wtf did copilot changed here, it made me freaking confused lol
+
 Console.WriteLine(a.Insert(0, "Hello, ")); // This line inserts "Hello, " at the beginning of the name
 
 //help me copilot is writing code for me ahhhhhhhhh
 
 Console.WriteLine("The lenth of the name given in the very first is : " + a.Length);
+
+Console.WriteLine("The first 3 words in your name is : " + a.Substring(0 ,3));
+
