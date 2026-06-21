@@ -7,10 +7,12 @@ Console.WriteLine("Your name in all small is :" + a.ToLower());
 Console.Write("Enter your phonenumber : ");
 string b = Console.ReadLine()!;
 Console.Write("Choose the number you want to replace : ");
-char c = Convert.ToChar(Console.ReadLine())!;
+string? cInput = Console.ReadLine();
+char c = !string.IsNullOrEmpty(cInput) ? cInput[0] : '\0';
 Console.Write("Enter the number you want to be in the place of replaced number : ");
-char d = Convert.ToChar(Console.ReadLine())!;
-Console.WriteLine(b.Replace(c ,d));
+string? dInput = Console.ReadLine();
+char d = !string.IsNullOrEmpty(dInput) ? dInput[0] : '\0';
+Console.WriteLine(b.Replace(c, d));
 
 
 // In here we get phone number from the user and then ask him which number does he wish to change with what number and both of this is also given by him
