@@ -16,3 +16,5 @@ Console.WriteLine(b.Replace(c, d));
 
 
 // In here we get phone number from the user and then ask him which number does he wish to change with what number and both of this is also given by him
+
+// man wtf did copilot changed here, it made me freaking confused lol
