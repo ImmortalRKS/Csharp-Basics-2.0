@@ -21,3 +21,5 @@ Console.WriteLine(b.Replace(c, d));
 Console.WriteLine(a.Insert(0, "Hello, ")); // This line inserts "Hello, " at the beginning of the name
 
 //help me copilot is writing code for me ahhhhhhhhh
+
+Console.WriteLine("The lenth of the name given in the very first is : " + a.Length);
