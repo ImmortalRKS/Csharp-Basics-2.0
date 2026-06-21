@@ -2,4 +2,5 @@
 string a = Console.ReadLine()!;
 Console.WriteLine("Your name in all capital is : " + a.ToUpper());
 Console.WriteLine("Your name in all small is :" + a.ToLower());
+// this are only some of the basic string methods only, they are a lot of them
 
